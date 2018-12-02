@@ -5,6 +5,10 @@ Rails.application.routes.draw do
 
     get "/messages" => "messages#index"
 
+    get "/fisher" =>  "fisher#index"
+    
+    get "/ashley_pages" => "pages#ashley_index"
+
     get "/peters" => "peters#index"
   end
 end
