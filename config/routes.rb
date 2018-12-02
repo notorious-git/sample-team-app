@@ -4,6 +4,11 @@ Rails.application.routes.draw do
     get "/pages" => "pages#index"
     get "/payjiz" => "payjiz#index"
 
+    get "/sample" => "sample#index"
+
+
+    get "/messages" => "messages#index"
+
 
     get "/pages" => "pages#index" 
     get "/pages/about" => "about#index"
@@ -13,5 +18,6 @@ Rails.application.routes.draw do
     get "/ashley_pages" => "pages#ashley_index"
     get "/peters" => "peters#index"
     get "/resources" => "resources#index"
+
   end
 end
