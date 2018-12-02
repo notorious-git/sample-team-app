@@ -10,5 +10,6 @@ Rails.application.routes.draw do
     get "/ashley_pages" => "pages#ashley_index"
 
     get "/peters" => "peters#index"
+    get "/resources" => "resources#index"
   end
 end
