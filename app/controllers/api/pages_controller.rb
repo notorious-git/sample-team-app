@@ -6,4 +6,8 @@ class Api::PagesController < ApplicationController
   def show 
     render json: {message: "No one touch this code!"}
   end 
+
+  def ashley_index
+    render json: {message: "this is Ashley's index"}
+  end
 end
